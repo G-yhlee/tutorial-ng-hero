@@ -10,3 +10,20 @@ ng serve --open
 ng generate component hero-detail
 
 ```
+
+```yaml
+# https://v9.angular.io/tutorial/toh-pt2
+  <li *ngFor="let hero of heroes"
+    [class.selected]="hero === selectedHero" # class.클래스값 = "조건" 
+    (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+```
+
+
+```yaml
+# Create a feature component
+
+
+
+```
